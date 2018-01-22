@@ -1,0 +1,31 @@
+- id: expert-01
+  category: heritage
+  title: Expert's Name
+  occupation: Professional Chef
+  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
+  story:
+    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
+    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
+    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.
+
+
+- id: expert-02
+  category: taste
+  title: Expert's Name
+  occupation: Vineyard Owner
+  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
+  story:
+    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
+    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
+    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.
+
+
+- id: expert-03
+  category: lifestyle
+  title: Expert's Name
+  occupation: Artist
+  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
+  story:
+    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
+    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
+    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.

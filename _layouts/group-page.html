@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+{% include page/banner-video.html %}
+
+<div class="page__content">
+
+  <div class="section">
+    <div class="row row--padding row--xl text--center">
+      <p class="text--xl">{{page.intro}}</p>
+    </div>
+  </div>
+
+  <div class="section bg--white">
+    <div class="row row--padding">
+
+      <div class="row text--center">
+        <h2 class="title title--xxl">Enjoy the unexpected</h2>
+      </div>
+
+      {% assign expert = site.data.experts | where: 'category', page.id %}
+      {% assign expert = expert[0] %}
+      <div class="row row--4-8-gutters row--valign">
+        <div class="col">
+          <div class="boxpad--md bg--grey">
+            <div class="avatar">
+              <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/img.jpg');"></div>
+            </div>
+            <div class="space--sm"></div>
+            <div class="h3 title title--sm">{{expert.title}}</div>
+            <h3 class="title title--xxxs title--sub title--upper title--kerning">{{expert.occupation}}</h3>
+            <p>{{expert.profile}}</p>
+          </div>
+        </div>
+        <div class="col text--lg">
+          {% for story in expert.story %}
+            <p>{{story.content}}</p>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  {% for section in page.sections %}
+    <div class="section{% cycle '', ' bg--white' %}">
+      <div class="row row--padding">
+        <div class="row row--xl text--center">
+          <h2 class="title title--lg">{{section.title}}</h2>
+          <p class="text--xl">{{section.description}}</p>
+        </div>
+
+        <div class="row row--xxl row--6-6-gutters">
+          {% for highlight in section.highlights %}
+            <div class="col">
+              <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
+              <div class="space--sm"></div>
+              <h2 class="title title--md">{{highlight.title}}</h2>
+              <h3 class="title title--xxxs title--sub title--upper">{{highlight.occupation}}</h3>
+              <p>{{highlight.description}}</p>
+              <div class="space--lg"></div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  {% endfor %}
+
+  {% include components/offer-promo.html %}
+
+</div>

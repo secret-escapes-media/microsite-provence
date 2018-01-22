@@ -1,0 +1,37 @@
+---
+layout: standard
+---
+
+<div class="section">
+  <div class="row row--padding row--xl text--center">
+    <p class="text--xl">{{page.intro}}</p>
+  </div>
+</div>
+
+
+{% assign group-pages = site.html_pages | where: 'group', 'art'  %}
+{% for page in group-pages %}
+  <div class="vpad--xxl bg__fixed">
+    <div class="bg__fixed-wrap">
+      <div class="bg__fixed-img" style="background-image: url('{{site.baseurl}}/img/bg/{{page.id}}.jpg');"></div>
+    </div>
+    <div class="row row--padding vpad--lg row--6-6-gutters row--valign">
+      <div class="col">
+        <div class="row row--md">
+          <h2 class="title title--banner title--banner-sm">{{page.title}}</h2>
+          <div class="space--md"></div>
+          <p class="text--lg">{{page.intro}}</p>
+          <a href="{{page.url}}" class="btn btn--purple">Find Out More</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="video js-youtube-thumbnail" data-thumbnail-img="{{site.baseurl}}/img/img.jpg">
+          <iframe class="video__iframe" src='https://www.youtube.com/embed/{{page.youtube-id}}?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+
+{% include components/offer-promo.html %}

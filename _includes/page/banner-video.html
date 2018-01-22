@@ -1,0 +1,19 @@
+<div class="banner">
+  <div class="banner__bg" style="background-image: url({{site.baseurl}}/img/bg/{{page.id}}.jpg);"></div>
+  <div class="banner__content site-header__offset-padding">
+    <div class="row row--7-5-gutters row--valign">
+      <div class="col text--left">
+        <div class="title title--banner-sub">The art of living</div>
+        <h1 class="title title--banner title--banner-md">{{page.title}}</h1>
+      </div>
+      <div class="col">
+        <div class="video js-youtube-thumbnail" data-thumbnail-img="{{site.baseurl}}/img/img.jpg">
+          <iframe class="video__iframe" src='https://www.youtube.com/embed/{{page.youtube-id}}?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner__nav site-header__offset-padding">
+    {% include nav/microsite-nav.html %}
+  </div>
+</div>
