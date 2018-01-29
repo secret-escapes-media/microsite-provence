@@ -11,11 +11,16 @@
   &--right  { text-align: right; }
   &--italic { font-style: italic; }
   &--center { text-align: center; }
-  &--white  { color: $white; }
+  &--white  {
+    color: $white;
+    & .title, &.title { color: $white; }
+  }
   &--black  { color: $text; }
   &--dark   { color: $text-dark; }
   &--light  { color: $text-light; }
   &--red    { color: $s-red; }
+  &--bold   { font-weight: 600; }
+  &--bolder { font-weight: 700; }
 
   &--beige { color: $p-beige-dark; }
 }
@@ -54,9 +59,20 @@
   }
 }
 
+
+
 hr {
   border: 0;
   height: 1px;
-  background-color: $grey-lightest;
+  background-color: $grey-lighter;
   margin: $s1 0;
+  .title + & { padding-top: 0 !important; }
 }
+.hr {
+  &--center {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

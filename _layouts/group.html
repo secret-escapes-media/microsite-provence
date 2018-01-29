@@ -4,7 +4,7 @@ layout: standard
 
 <div class="section">
   <div class="row row--padding row--xl text--center">
-    <p class="text--xl">{{page.intro}}</p>
+    {{page.intro}}
   </div>
 </div>
 
@@ -20,8 +20,8 @@ layout: standard
         <div class="row row--md">
           <h2 class="title title--banner title--banner-sm">{{page.title}}</h2>
           <div class="space--md"></div>
-          <p class="text--lg">{{page.intro}}</p>
-          <a href="{{site.baseurl}}{{page.url}}" class="btn btn--purple">Find Out More</a>
+          <p class="text--lg">{{page.intro|truncate:200}}</p>
+          <a href="{{site.baseurl}}{{page.url}}" class="btn btn--purple">Read More</a>
         </div>
       </div>
       <div class="col">

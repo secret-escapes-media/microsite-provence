@@ -58,20 +58,54 @@ body {
     }
   }
 
-  // &--ski-promo {
-  //   position: relative;
-  //   .row { z-index: $z-content-upper; }
-  //   &:after {
-  //     content: "";
-  //     position: absolute;
-  //     z-index: $z-content;
-  //     top: 0; left: 0; bottom: 0; right: 0;
-  //     background-color: rgba($grey-darkest,0.4);
-  //     @include bp(lg){ content: none; }
-  //   }
-  // }
 }
+
+
 
 .avatar {
   max-width: 200px;
+  margin-top: -6em;
 }
+
+
+
+.poi {
+  @include layout(12 1);
+  & + & { margin-top: $s4; }
+
+  &__image {
+    max-width: $lg;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__text { padding-top: $s2; }
+
+  @include bp(xxl){
+
+    & + & { margin-top: gutter(12); }
+    .flexbox & {
+      display: flex;
+      align-items: center;
+    }
+
+    &__image { @include span(6.5); }
+    &__text {
+      @include span(5.5 last);
+      padding-top: 0;
+    }
+
+    &--swap{
+      .poi__image { @include span(6.5 last); }
+      .poi__text { @include span(5.5); }
+      .flexbox & {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+    }
+
+  }
+}
+
+
+

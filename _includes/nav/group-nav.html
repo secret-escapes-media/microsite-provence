@@ -4,9 +4,9 @@
   {% for section in sections %}
     {% capture slug    %}{{ section.url | split: "/"   | last                       }}{% endcapture %}
     {% capture current %}{{ section.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
-    {% if current == include.context %}
+    {% if current == include.context and section.group-order %}
     <li class="group-nav__item group-nav__item--{{section.id}}" style="background-image: url('{{ site.baseurl }}/img/bg/{{section.id}}-nav.jpg');">
-      <a class="group-nav__link" href="{{ site.baseurl }}{{ section.url }}"><span class="group-nav__link-wrap title title--xxl title--banner">{{ section.title }}</span></a>
+      <a class="group-nav__link" href="{{ site.baseurl }}{{ section.url }}"><span class="group-nav__link-wrap title title--xxl title--banner text--white">{{ section.title }}</span></a>
     </li>
     {% endif %}
   {% endfor %}

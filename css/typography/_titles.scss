@@ -1,9 +1,10 @@
+
 .title {
   font-family: $font-family-headline-02;
   font-weight: 200;
-  font-style: italic;
   line-height: 1.36;
   letter-spacing: .037em;
+  color: $headline;
   // proper typeface weight rendering
   -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
@@ -26,7 +27,6 @@
     padding-bottom: $s0;
   }
   &--display {
-
     // letter-spacing: 0.175em;
     // text-transform: uppercase;
     // font-weight: 200;

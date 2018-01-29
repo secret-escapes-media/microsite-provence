@@ -1,84 +1,15 @@
 ---
-layout: standard
+layout: group
 id: overview
+group-id: art
 nav-order: 1
-title: Overview
-intro: From the golden shoreline of the Mediterranean to the picturesque, cool mountain climes, Provence is set to offer even the most experienced travellers a tale of the unexpected.
-
+title: The Art of Living
+intro: >
+  <p class="text--xl">From the golden shoreline of the Mediterranean to the picturesque, cool mountain climes, Provence is set to offer even the most experienced travellers a tale of the unexpected. </p>
+  <p class="text--xl">Enchanting medieval cities, famed wine regions and the glorious, softly-scented purple of the lavender fields stand as potent symbols of Provence’s captivating delights. The hills and mountains shelter some of France’s most beautiful villages, with landscapes set to inspire awe and wonder.</p>
+  <p class="text--xl text--bold">Discover the art of living in Provence. </p>
 
 banner:
   title: Provence
   title-sub: Enjoy the unexpected
-
-
-features:
-
-  - id: treasures
-    title: Inland treasures
-    description: Provence is more than just its Riviera – in fact, it hosts a collection of beguiling treasures inland, that offer everything from Roman heritage to rolling vineyards. Discover the grandiose home of the Western Schism, the stunning medieval warren of Avignon. Seek out remarkably-preserved Roman coliseums and temples in Aix and Arles, before heading for vast gorges and natural wonders to nurse the soul. Foodie delights abound, with regional delicacies set to table with refreshing rosés and sumptuous reds. An enviable lifestyle awaits.
-
-  - id: coast
-    title: The Coast
-    description: The French Riviera is a magnificent stretch of Mediterranean coastline, having drawn visitors in for centuries. A cosmopolitan aristocracy soon saw the stretch fitted with grand palaces and Belle-Epoque glamour, lining the promenades of Nice and Cannes. Mega-yachts line the harbours of St Tropez and casinos clatter in Monte Carlo, yet quiet, rustic spots can still be found along the sun-drenched coastline. Dip into quaint fishing villages or discover the breathtaking beauty of Port Grimaud or Eze village.
-
 ---
-
-<div class="section">
-  <div class="row row--padding row--xxl text--center">
-    <div class="line-length--lg">
-      <p class="title title--xs text--beige">{{page.intro}}</p>
-      <p>Enchanting medieval cities, famed wine regions and the glorious, softly-scented purple of the lavender fields stand as potent symbols of Provence’s captivating delights. Head to sea, where the Côte d'Azur is studded with famed starlets, celebrity hangouts and a veritable millionaire’s row of old-age glamour and excess. Yet along the sublime coastline you’ll find secluded bays, gloriously quaint fishing villages, and unsung towns like Bandol and Menton, just as the hills and mountains shelter some of France’s most beautiful villages.</p>
-      <p>Discover the art of living in Provence, where the famed light illuminates the technicolour produce of the region’s beloved food markets, where the welcome is warm, friendly and sincere and the living is good, easy, and irresistible to any traveller.</p>
-    </div>
-  </div>
-</div>
-
-
-<div class="section bg--white">
-  <div class="row row--padding">
-    {% for feature in page.features %}
-      <div class="bob{% cycle ' bob--swap', '' %}">
-        <div class="bob__image">
-          <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
-        </div>
-        <div class="bob__text">
-          <h2 class="title title--md text--beige">{{feature.title}}</h2>
-          <p>{{feature.description}}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
-
-<div class="section">
-  <div class="row row--padding">
-    <div class="row row--lg text--center">
-      <h2 class="title title--lg">Enjoy the unexpected</h2>
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto non distinctio similique nobis corporis architecto aliquid explicabo nam ratione voluptates! Porro est, tenetur quasi doloribus. Natus fugit voluptate officia explicabo.</p>
-    </div>
-    <div class="row row--xxl row--4-4-4-gutters">
-      {% for expert in site.data.experts %}
-        <div class="col">
-          <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
-          <div class="space--sm"></div>
-          <h2 class="title title--md">{{expert.title}}</h2>
-          <h3 class="title title--xxxs title--sub title--upper title--kerning">{{expert.occupation}}</h3>
-          <p>{{expert.profile}}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="vpad--xxxl bg--art-promo text--white">
-  <div class="row row--padding">
-    <div class="row row--xl text--center">
-      <h3 class="title title--banner-sub">Discover</h3>
-      <h2 class="title title--banner title--banner-sm">The art of living</h2>
-      <p class="text--xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto non distinctio similique nobis corporis architecto.</p>
-      <!-- the nbsp's are super hacky, adds a bit of space and still stays center on mobile -->
-      &nbsp; <a href="{{site.baseurl}}/the-art-of-living" class="btn btn--white-outline">Find Out More</a> &nbsp; <a href="{{site.baseurl}}/offers" class="btn btn--white-outline">View Provence Offers</a> &nbsp;
-    </div>
-  </div>
-</div>

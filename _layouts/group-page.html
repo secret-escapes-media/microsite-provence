@@ -8,7 +8,7 @@ layout: default
 
   <div class="section">
     <div class="row row--padding row--xl text--center">
-      <p class="text--xl">{{page.intro}}</p>
+      {{page.intro}}
     </div>
   </div>
 
@@ -16,7 +16,7 @@ layout: default
     <div class="row row--padding">
 
       <div class="row text--center">
-        <h2 class="title title--xxl">Enjoy the unexpected</h2>
+        <h2 class="title title--xl title--italic">Enjoy the unexpected</h2>
       </div>
 
       {% assign expert = site.data.experts | where: 'category', page.id %}
@@ -28,7 +28,7 @@ layout: default
               <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/img.jpg');"></div>
             </div>
             <div class="space--sm"></div>
-            <div class="h3 title title--sm">{{expert.title}}</div>
+            <div class="h3 title title--sm title--italic">{{expert.title}}</div>
             <h3 class="title title--xxxs title--sub title--upper title--kerning">{{expert.occupation}}</h3>
             <p>{{expert.profile}}</p>
           </div>
@@ -45,26 +45,32 @@ layout: default
 
   {% for section in page.sections %}
     <div class="section{% cycle '', ' bg--white' %}">
-      <div class="row row--padding">
-        <div class="row row--xl text--center">
-          <h2 class="title title--lg">{{section.title}}</h2>
-          <p class="text--xl">{{section.description}}</p>
-        </div>
 
-        <div class="row row--xxl row--6-6-gutters">
-          {% for highlight in section.highlights %}
-            <div class="col">
-              <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
-              <div class="space--sm"></div>
-              <h2 class="title title--md">{{highlight.title}}</h2>
-              <h3 class="title title--xxxs title--sub title--upper">{{highlight.occupation}}</h3>
-              <p>{{highlight.description}}</p>
-              <div class="space--lg"></div>
-            </div>
-          {% endfor %}
-        </div>
-
+      <div class="row row--xxl row--padding text--center">
+        <h2 class="title title--xl title--italic">{{section.title}}</h2>
+        <p class="text--xl">{{section.description}}</p>
+        <div class="space--xs"></div>
+        <hr class="hr--center">
+        <div class="space--xs"></div>
       </div>
+
+      <div class="row row--xxl row--padding">
+      {% for highlight in section.highlights %}
+        <div class="poi{% cycle '',' poi--swap' %}">
+
+          <div class="poi__image">
+            <div class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
+          </div>
+
+          <div class="poi__text">
+            <h2 class="title title--sm title--bold">{{highlight.title}}</h2>
+            <p>{{highlight.description}}</p>
+          </div>
+
+        </div>
+      {% endfor %}
+      </div>
+
     </div>
   {% endfor %}
 
