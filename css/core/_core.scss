@@ -40,6 +40,9 @@ img[src$=".png"] {
 // controls size image once swapped with svg
 .js-svg-swap { max-width: 100%; width: 100%; }
 
+// waypoint object to give ID for page anchor linking
+.wp { position: absolute; top: 0; left: 0; visibility: hidden; }
+
 // general transisition
 $transition-time: .25s;
 @mixin transition() { transition: all $transition-time ease; }

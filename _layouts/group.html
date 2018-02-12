@@ -20,15 +20,24 @@ layout: standard
         <div class="row row--md">
           <h2 class="title title--banner title--banner-sm">{{page.title}}</h2>
           <div class="space--md"></div>
-          <p class="text--lg">{{page.intro|truncate:200}}</p>
+          <p class="text--lg">{{page.intro}}</p>
           <a href="{{site.baseurl}}{{page.url}}" class="btn btn--purple">Read More</a>
         </div>
       </div>
+
       <div class="col">
-        <div class="video js-youtube-thumbnail" data-thumbnail-img="{{site.baseurl}}/img/img.jpg">
-          <iframe class="video__iframe" src='https://www.youtube.com/embed/{{page.youtube-id}}?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
-        </div>
+
+        {% if page.youtube-id %}
+          <div class="video js-youtube-thumbnail" data-thumbnail-img="{{site.baseurl}}/img/img.jpg">
+            <iframe class="video__iframe" src='https://www.youtube.com/embed/{{page.youtube-id}}?rel=0&amp;showinfo=0' frameborder='0' allowfullscreen="allowfullscreen"></iframe>
+          </div>
+        {% else %}
+          <div class="bg-img bg-img--4-3 bg-img--shadow" style="background-image: url({{site.baseurl}}/img/content/overview/{{page.id}}.jpg);"></div>
+        {% endif %}
+
       </div>
+
+
     </div>
   </div>
 {% endfor %}

@@ -21,8 +21,6 @@ $nav-width-bp:        400px;
   background-repeat: repeat-x;
   overflow: hidden;
 
-  footer & { border-top: 1px solid $grey-lightest; }
-
   @include bp(md){
     height: $site-nav-height;
     line-height: ($site-nav-height - 5px);
@@ -70,13 +68,13 @@ $nav-width-bp:        400px;
     @include transition;
     &:hover {
       > .site-nav__link:after {
-        background-color: $p-purple-light;
+        background-color: $p-purple;
         opacity: 1;
       }
     }
     &.is-current {
       > .site-nav__link:after {
-        background-color: $p-purple;
+        background-color: $p-purple-light;
         opacity: 1;
       }
     }

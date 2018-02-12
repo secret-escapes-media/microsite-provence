@@ -23,6 +23,8 @@ body {
     @include background-attributes;
   }
 
+  &--rounded { border-radius: 4px; overflow: hidden; }
+
   &__fixed {
     position: relative;
     background-color: rgba($white,.85);
@@ -107,5 +109,34 @@ body {
   }
 }
 
+
+
+
+.competition-bg {
+  background-color: $p-purple-dark;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-background;
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include background-attributes;
+  }
+}
+
+.prize {
+  @include transition;
+  box-shadow: 0;
+  &:hover {
+    transform: scale(1.025);
+    @include shadow;
+  }
+}
 
 

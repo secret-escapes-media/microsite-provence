@@ -1,65 +1,83 @@
 ---
-layout: standard
+layout: competition
 id: competition
 nav-order: 4
 title: Competition
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aliquid quas, excepturi voluptatem cumque officia voluptatibus. Debitis laborum facilis repellendus commodi quod assumenda, tenetur itaque harum numquam, soluta iure fuga?
+
+intro: It’s time for you to discover the Provençal lifestyle for yourself. Enter below to win flights for two and touchdown in this glorious region. Enjoy a luxurious four-night stay, perfect for exploring the coast and mountains that harbour a wealth of cultural and foodie experiences set in beautiful surrounds. Enter now and start planning your own Provençal adventure with our guide that captures the art of living in Provence.
 
 banner:
   content: >
     <div class="row row--xxl">
       <!-- last minute styles for .title. the margin thing is annoying, definitley a better way of doing this -->
       <h1 class="title title--banner title--banner-sm" style="line-height: .8;
-    margin-bottom: .05em;">Win an unmissable trip to Provence</h1>
+    margin-bottom: .05em;">Win a getaway in Provence</h1>
       <div>
         <a href="#entry-form" class="btn btn--purple">Enter Now</a>
       </div>
     </div>
+
+
+
+prizes:
+
+  - title: Flights
+    subtitle: for two from the UK
+    id: prize-1
+
+  - title: Stay
+    subtitle: in 5-star luxury
+    id: prize-2
+
+  - title: Experience
+    subtitle: the Provençal lifestyle
+    id: prize-3
+
+
+
 ---
 
-<div class="section bg--white">
-  <div class="row row--padding row--xl text--center">
-    <p class="text--lg">{{page.intro}}</p>
+
+
+
+<div class="row row--padding text--center">
+  <div class="row row--padding bg--white vpad--md bg--rounded">
+    <div class="line-length--xl">
+      <p class="text--xl">{{page.intro}}</p>
+    </div>
   </div>
 </div>
+
+
+
+
+<div class="vpad-bottom--xl row row--padding row--4-4-4-gutters">
+  {% for prize in page.prizes %}
+    <a href="#entry-form" class="prize col bg--white bg--rounded bg--shadow">
+
+      <div class="bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
+
+      <div class="row row--padding vpad--sm text--center">
+        <h3 class="title title--xs title--bolder">{{prize.title}}</h3>
+        <h5 class="title title--sub title--xxxxs title--bolder title--kerning title--upper">{{prize.subtitle}}</h5>
+      </div>
+
+    </a>
+  {% endfor %}
+</div>
+
+
 
 <div class="section">
-  <div class="row row--padding">
-    <div class="bob bob--swap">
-      <div class="bob__image">
-        <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
-      </div>
-      <div class="bob__text">
-        <h2 class="title title--md">Prize Detail</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa debitis voluptas minima at culpa, inventore, nihil unde doloremque deserunt corporis iure quisquam pariatur ducimus, illum, deleniti ipsam dignissimos reiciendis maxime.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section bg--white">
-  <div class="row row--padding">
-    <div class="bob">
-      <div class="bob__image">
-        <div class="bg-img bg-img--3-2" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
-      </div>
-      <div class="bob__text">
-        <h2 class="title title--md">Prize Detail</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa debitis voluptas minima at culpa, inventore, nihil unde doloremque deserunt corporis iure quisquam pariatur ducimus, illum, deleniti ipsam dignissimos reiciendis maxime.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="entry-form" class="section">
-  <div class="row row--padding row--xl text--center">
+  <div class="wp" id="entry-form"></div>
+  <div class="row row--padding row--xl text--center text--white">
     <div class="space--sm"></div>
     <div class="row--padding">
-      <h2 class="title title--sm title--core">Enter your details below to win!</h2>
+      <h2 class="title title--sm title--bold">Enter below to be in to win!</h2>
     </div>
     <div class="space--md"></div>
     <div class="form">
-      <iframe src="https://promotion4117.strutta.me" width="100%" height="700"></iframe>
+      <iframe src="https://promotion4529.strutta.me" width="100%" height="700"></iframe>
     </div>
   </div>
 </div>

@@ -62,3 +62,26 @@ if ("ontouchstart" in document.documentElement){
   // if (currentCategory !== ''){
   //   $('.category--' + currentCategory + ' [class*=nav__item--' + currentCategory + ']').addClass('is-current');
   // }
+
+
+
+///////////////////////////////////////
+//        Background fade
+///////////////////////////////////////
+
+
+function bgOverlay(){
+	var st = $(document).scrollTop();
+	var wh = $(window).height();
+
+	$('.js-bg-fade ').css({
+		"opacity": ((wh - (st)) / wh)
+	});
+}
+
+$(document).scroll(function() {
+	bgOverlay();
+});
+$(document).ready(function() {
+	bgOverlay();
+});

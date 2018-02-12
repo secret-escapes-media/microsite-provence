@@ -38,4 +38,5 @@
     opacity: .8;
   }
   &--hover:hover { transform: scale(1.025); @include shadow; }
+  &--shadow { @include shadow; }
 }

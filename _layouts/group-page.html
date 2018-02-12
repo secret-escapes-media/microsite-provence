@@ -2,7 +2,11 @@
 layout: default
 ---
 
-{% include page/banner-video.html %}
+{% if page.youtube-id %}
+  {% include page/banner-video.html %}
+{% else %}
+  {% include page/banner.html %}
+{% endif %}
 
 <div class="page__content">
 
@@ -59,7 +63,7 @@ layout: default
         <div class="poi{% cycle '',' poi--swap' %}">
 
           <div class="poi__image">
-            <div class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/img.jpg);"></div>
+            <div class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{highlight.id}}.jpg);"></div>
           </div>
 
           <div class="poi__text">
