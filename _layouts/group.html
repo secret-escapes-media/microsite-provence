@@ -37,8 +37,17 @@ layout: standard
       </div>
 
     </div>
+
+    {% if forloop.last %}
+    <div class="row row--padding vpad-top--lg text--center">
+      <a href="{{page.fr-link}}" id="tracking-fr-btn" class="btn btn--purple">Learn more about Provence on france.fr</a>
+    </div>
+    {% endif %}
+
   </div>
 {% endfor %}
+
+
 
 
 {% include components/offer-promo.html %}

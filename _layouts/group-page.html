@@ -13,6 +13,7 @@ layout: default
   <div class="section">
     <div class="row row--padding row--xl text--center">
       {{page.intro}}
+      <a href="{{site.baseurl}}" class="btn btn--purple">View Provence offers</a>
     </div>
   </div>
 
@@ -46,7 +47,14 @@ layout: default
 
         </div>
       {% endfor %}
+
       </div>
+
+      {% if forloop.last %}
+        <div class="row text--center">
+          <a href="{{page.fr-link}}" id="tracking-fr-btn" class="btn btn--purple">Learn more about Provence on france.fr</a>
+        </div>
+      {% endif %}
 
     </div>
   {% endfor %}
