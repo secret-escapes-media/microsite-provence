@@ -1,10 +1,17 @@
 # Site settings
 title: Provence
-client:
-  name: Provence Tourist Board
-  link: http://www.morethanprovence.com/en/
+
+clients:
+  - id: france
+    name: France Tourism
+    link: https://uk.france.fr/en
+  - id: provence
+    name: Provence Tourist Board
+    link: http://www.morethanprovence.com/en/
+
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  From the golden shoreline of the Mediterranean to the picturesque, cool mountain climes, Provence is set to offer even the most experienced travellers a tale of the unexpected.
+
 baseurl: "/provence" # the subpath of your site, e.g. /blog/
 url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
 

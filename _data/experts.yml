@@ -1,5 +1,4 @@
 - id: expert-01
-  category: heritage
   title: Expert's Name
   occupation: Professional Chef
   profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
@@ -10,7 +9,6 @@
 
 
 - id: expert-02
-  category: taste
   title: Expert's Name
   occupation: Vineyard Owner
   profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
@@ -21,7 +19,6 @@
 
 
 - id: expert-03
-  category: lifestyle
   title: Expert's Name
   occupation: Artist
   profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!

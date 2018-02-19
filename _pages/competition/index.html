@@ -4,17 +4,17 @@ id: competition
 nav-order: 4
 title: Competition
 
-intro: It’s time for you to discover the Provençal lifestyle for yourself. Enter below to win flights for two and touchdown in this glorious region. Enjoy a luxurious four-night stay, perfect for exploring the coast and mountains that harbour a wealth of cultural and foodie experiences set in beautiful surrounds. Enter now and start planning your own Provençal adventure with our guide that captures the art of living in Provence. 
+intro: It’s time for you to discover the Provençal lifestyle for yourself. Enter below to win flights for two and touchdown in this glorious region. Enjoy a luxurious four-night stay, perfect for exploring the coast and mountains that harbour a wealth of cultural and foodie experiences set in beautiful surrounds. Enter now and start planning your own Provençal adventure with our guide that captures the art of living in Provence.
 
 banner:
   content: >
     <div class="row row--xxl">
-      <!-- last minute styles for .title. the margin thing is annoying, definitley a better way of doing this -->
-      <h1 class="title title--banner title--banner-sm" style="line-height: .8;
-    margin-bottom: .05em;">Win a getaway in Provence</h1>
+
+      <h1 class="title title--banner title--banner-sm">Win a getaway in Provence</h1>
       <div>
         <a href="#entry-form" class="btn btn--purple">Enter Now</a>
       </div>
+
     </div>
 
 
@@ -55,11 +55,11 @@ prizes:
   {% for prize in page.prizes %}
     <a href="#entry-form" class="prize col bg--white bg--rounded bg--shadow">
 
-      <div class="bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
+      <div class="bg-img bg-img--16-9 bg-img--lg-4-3 bg-img--xxl-1-1" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
 
       <div class="row row--padding vpad--sm text--center">
-        <h3 class="title title--xs title--bolder">{{prize.title}}</h3>
-        <h5 class="title title--sub title--xxxxs title--bolder title--kerning title--upper">{{prize.subtitle}}</h5>
+        <h3 class="title title--xs title--upper title--bolder">{{prize.title}}</h3>
+        <h5 class="title title--sub title--xxxxs title--bolder">{{prize.subtitle}}</h5>
       </div>
 
     </a>

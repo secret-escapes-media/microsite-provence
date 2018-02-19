@@ -69,6 +69,13 @@ $page-margin: $s4;
       align-items: center;
     }
 
+    // swap columns
+    .flexbox &--reverse {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+
     // two columns without gutter
     &--4-8 { @include two-column-grid( 4, 8 ); }
     &--5-7 { @include two-column-grid( 5, 7 ); }

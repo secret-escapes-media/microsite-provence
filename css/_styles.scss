@@ -80,7 +80,12 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  &__text { padding-top: $s2; }
+  &__text {
+    max-width: $lg;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: $s2;
+  }
 
   @include bp(xxl){
 
@@ -132,7 +137,8 @@ body {
 
 .prize {
   @include transition;
-  box-shadow: 0;
+  box-shadow: none;
+  display: block;
   &:hover {
     transform: scale(1.025);
     @include shadow;

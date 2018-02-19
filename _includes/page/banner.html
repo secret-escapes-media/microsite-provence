@@ -5,13 +5,18 @@
       {% if page.banner.content %}
         {{page.banner.content | liquify}}
       {% else %}
-        {% if page.banner.title-super %}<div class="title title--banner-sub">{{page.banner.title-super}}</div>{% endif %}
+        {% if page.banner.title-super %}<div class="title title--banner-super">{{page.banner.title-super}}</div>{% endif %}
           {% if page.banner.title %}
           <h1 class="title title--banner title--banner-lg">{{page.banner.title}}
           {% else %}
           <h1 class="title title--banner title--banner-lg">{{page.title}}
           {% endif %}</h1>
         {% if page.banner.title-sub %}<div class="title title--banner-sub">{{page.banner.title-sub}}</div>{% endif %}
+      {% endif %}
+
+      {% if page.layout == 'group' or page.layout == 'group-page' %}
+        <hr class="hr--center hr--double">
+        <div class="banner__feel"></div>
       {% endif %}
     </div>
   </div>

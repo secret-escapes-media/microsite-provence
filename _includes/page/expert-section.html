@@ -1,0 +1,30 @@
+<div class="section bg--white">
+  <div class="row row--padding">
+
+    <div class="row text--center">
+      <h2 class="title title--xl title--italic">Enjoy the unexpected</h2>
+    </div>
+
+    {% assign expert = site.data.experts | where: 'id', page.expert %}
+    {% assign expert = expert[0] %}
+    <div class="row row--4-8-gutters row--valign">
+      <div class="col">
+        <div class="boxpad--md bg--grey">
+          <div class="avatar">
+            <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/img.jpg');"></div>
+          </div>
+          <div class="space--sm"></div>
+          <div class="h3 title title--sm title--italic">{{expert.title}}</div>
+          <h3 class="title title--xxxs title--sub title--upper title--kerning">{{expert.occupation}}</h3>
+          <p>{{expert.profile}}</p>
+        </div>
+      </div>
+      <div class="col text--lg">
+        {% for story in expert.story %}
+          <p>{{story.content}}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</div>

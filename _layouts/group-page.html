@@ -16,39 +16,12 @@ layout: default
     </div>
   </div>
 
-  <div class="section bg--white">
-    <div class="row row--padding">
-
-      <div class="row text--center">
-        <h2 class="title title--xl title--italic">Enjoy the unexpected</h2>
-      </div>
-
-      {% assign expert = site.data.experts | where: 'category', page.id %}
-      {% assign expert = expert[0] %}
-      <div class="row row--4-8-gutters row--valign">
-        <div class="col">
-          <div class="boxpad--md bg--grey">
-            <div class="avatar">
-              <div class="bg-img bg-img--circle" style="background-image: url('{{site.baseurl}}/img/img.jpg');"></div>
-            </div>
-            <div class="space--sm"></div>
-            <div class="h3 title title--sm title--italic">{{expert.title}}</div>
-            <h3 class="title title--xxxs title--sub title--upper title--kerning">{{expert.occupation}}</h3>
-            <p>{{expert.profile}}</p>
-          </div>
-        </div>
-        <div class="col text--lg">
-          {% for story in expert.story %}
-            <p>{{story.content}}</p>
-          {% endfor %}
-        </div>
-      </div>
-
-    </div>
-  </div>
+  {% if page.expert %}
+    {% include page/expert-section.html %}
+  {% endif %}
 
   {% for section in page.sections %}
-    <div class="section{% cycle '', ' bg--white' %}">
+    <div class="section{% cycle ' bg--white', '' %}">
 
       <div class="row row--xxl row--padding text--center">
         <h2 class="title title--xl title--italic">{{section.title}}</h2>
@@ -63,7 +36,7 @@ layout: default
         <div class="poi{% cycle '',' poi--swap' %}">
 
           <div class="poi__image">
-            <div class="bg-img bg-img--4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{highlight.id}}.jpg);"></div>
+            <div class="bg-img bg-img--16-9 bg-img--xxl-4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{highlight.id}}.jpg);"></div>
           </div>
 
           <div class="poi__text">

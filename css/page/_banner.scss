@@ -36,6 +36,22 @@
     z-index: $z-content-overlay;
     @include transition;
   }
+  &__feel {
+    background-image: url('../img/logo/feel.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 300px;
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 15.6%;
+    }
+  }
 }
 
 
@@ -52,7 +68,11 @@
     }
     & .site-nav {
       padding-top: 0;
-      background-image: url(../img/nav-bg-invert.png);
+      background-image: url("../img/nav-bg-invert.png");
+      line-height: $core-nav-height-sm;
+      @include bp(md){
+        line-height: $core-nav-height;
+      }
     }
   }
 

@@ -111,6 +111,10 @@ $nav-width-bp:        400px;
       }
     }
   }
+  footer & {
+    line-height: $site-nav-height-sm;
+    background-image: url("../img/nav-bg-invert.png"); 
+  }
 }
 
 // ---------- DROP DOWN LIST NAV ----------
@@ -167,7 +171,8 @@ $nav-width-bp:        400px;
     @include transition;
     &:hover {
       text-decoration: none;
-      letter-spacing: .225em
+      letter-spacing: .225em;
+      background-color: rgba($grey-dark,.1);
     }
   }
 }

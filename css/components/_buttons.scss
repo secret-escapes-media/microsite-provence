@@ -3,6 +3,7 @@
 // ---------- button ----------
 
 .btn {
+@include transition;
   position: relative;
   display: inline-block;
   padding: $s2 $s6;
@@ -15,7 +16,11 @@
   line-height: 1.33;
   border-radius: 3px;
   cursor: pointer;
-  @include transition;
+  padding: $s2 $s2;
+  @include bp(lg){
+    padding: $s2 $s6;
+  }
+
   * + & { margin-top: 2em; }
   &--sm {
     padding: $s1 $s4;

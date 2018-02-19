@@ -1,1 +1,4 @@
-<a class="logo boxpad--xxs logo--france{% if include.small %} logo--france-sm{% endif %}" href="https://www.france.fr/en" id="tracking-france-logo"><img class="js-svg-swap" src="{{ site.baseurl }}/img/logo/france.png" alt="Atout France Logo"></a><a class="logo boxpad--xxs logo--provence{% if include.small %} logo--provence-sm{% endif %}" href="{{site.client.link}}" id="tracking-provence-logo"><img src="{{ site.baseurl }}/img/logo/provence.png" alt="{{site.client.name}} Logo"></a>
+
+{% for client in site.clients %}
+<a class="logo boxpad--xxs logo--{{client.id}}{% if include.small %} logo--{{client.id}}-sm{% endif %}" href="{{client.link}}" id="tracking-{{client.id}}-logo"><img class="js-svg-swap" src="{{ site.baseurl }}/img/logo/{{client.id}}.png" alt="{{client.name}} Logo"></a>
+{% endfor %}
