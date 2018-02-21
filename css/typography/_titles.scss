@@ -27,7 +27,7 @@
     font-size: $s1;
     font-weight: 600;
     @include bp(lg){
-      font-size: $s4;
+      font-size: $s3;
     }
   }
   &--banner-super {
@@ -35,11 +35,11 @@
     text-transform: uppercase;
     letter-spacing: .33em;
     padding-top: $s0;
-    padding-bottom: $s4;
+    padding-bottom: $s3;
     font-size: $s1;
     font-weight: 600;
     @include bp(lg){
-      font-size: $s4;
+      font-size: $s3;
     }
   }
   &--display {

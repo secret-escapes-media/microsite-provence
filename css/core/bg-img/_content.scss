@@ -37,6 +37,22 @@
     background-image: url(../img/img.jpg);
     opacity: .8;
   }
+
+  &__credit {
+    transition: all .25s ease;
+    position: absolute;
+    z-index: $z-content-upper;
+    padding: 0.3em 0.5em;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 3px;
+    font-size: 0.8em;
+    opacity: 0.5;
+    color: $white;
+    background-color: rgba($grey-darkest,.75);
+  }
+  &:hover &__credit { opacity: 0.9; }
+
   &--hover:hover { transform: scale(1.025); @include shadow; }
   &--shadow { @include shadow; }
 }

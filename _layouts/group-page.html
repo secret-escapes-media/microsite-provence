@@ -37,7 +37,11 @@ layout: default
         <div class="poi{% cycle '',' poi--swap' %}">
 
           <div class="poi__image">
-            <div class="bg-img bg-img--16-9 bg-img--xxl-4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{highlight.id}}.jpg);"></div>
+            <div class="bg-img bg-img--16-9 bg-img--xxl-4-3" style="background-image: url({{site.baseurl}}/img/content/{{page.id}}/{{highlight.id}}.jpg);">
+              {% if highlight.credit %}
+              <div class="bg-img__credit">{{highlight.credit}}</div>
+              {% endif %}
+            </div>
           </div>
 
           <div class="poi__text">

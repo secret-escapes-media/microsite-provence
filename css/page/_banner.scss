@@ -41,7 +41,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 300px;
+    max-width: 270px;
     width: 60%;
     margin: auto;
     margin-top: 2em;
@@ -69,10 +69,6 @@
     & .site-nav {
       padding-top: 0;
       background-image: url("../img/nav-bg-invert.png");
-      line-height: $core-nav-height-sm;
-      @include bp(md){
-        line-height: $core-nav-height;
-      }
     }
   }
 
