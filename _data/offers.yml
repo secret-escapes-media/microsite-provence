@@ -1,28 +1,6 @@
 
 
 
-- title: Sandton Hôtel & Résidence Domaine Cocagne
-  id: sandton-hotel-résidence-domaine-cocagne
-  location: Côte d’Azur, France
-  description: A scenic rural stay at a chic hotel on the Côte d’Azur
-  price: 58
-  price-description: per person per night
-  saved: 35
-  expires: 2018/02/28
-  link: https://www.secretescapes.com/sandton-hotel-and-residence-domaine-cocagne-cote-dazur-france/sale
-
-
-- title: Splendid Hotel & Spa
-  id: splendid-hotel-spa
-  location: Nice, France
-  description: A French Riviera stay with chic interiors in Nice
-  price: 40
-  price-description: per person per night
-  saved: 46
-  expires: 2018/02/28
-  link: https://www.secretescapes.com/splendid-hotel-and-spa-nice-france-e/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
 - title: 5* getaway to beautiful Aix-en-Provence
   id: 5-getaway-to-beautiful-aix-en-provence
   location: Renaissance Aix-en-Provence Hotel, France
@@ -45,28 +23,6 @@
   link: https://www.secretescapes.com/le-moulin-de-vernegues-hotel-and-spa-mallemort-provence-france1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
-- title: Boutique Nice break with Monte Carlo night tour
-  id: boutique-nice-break-with-monte-carlo-night-tour
-  location: Villa Bougainville, France
-  description: A chic boutique hotel in the centre of Nice
-  price: 265
-  price-description: per person for 4 nights
-  saved: 27
-  expires: 2018/02/28
-  link: https://www.secretescapes.com/villa-bougainville-nice-nice-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
-- title: Hotel Le Cavendish
-  id: hotel-le-cavendish
-  location: Cannes, France
-  description: A charming stay brimming with elegance and classic Belle Epoque style, with breakfast
-  price: 113
-  price-description: per room per night
-  saved: 46
-  expires: 2018/02/28
-  link: https://www.secretescapes.com/hotel-le-cavendish-cannes-france-cannes/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
 - title: Benvengudo
   id: benvengudo
   location: Provence, France
@@ -76,5 +32,27 @@
   saved: 27
   expires: 2018/02/28
   link: https://www.secretescapes.com/benvengudo-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
+
+
+- title: Hôtel de l'Image
+  id: hotel-de-l-image
+  location: Saint-Rémy-de-Provence, France
+  description: An award-winning rural retreat in picturesque Provence
+  price: 120
+  price-description: per room per night
+  saved: 56
+  expires: 2018/02/28
+  link: https://www.secretescapes.com/hotel-de-limage-saint-remy-de-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
+
+
+- title: Auberge de Cassagne & Spa
+  id: auberge-de-cassagne-spa
+  location: Avignon, France
+  description: Five-star luxe at an authentic Provençal house stay near Avignon
+  price: 134
+  price-description: per room per night
+  saved: 46
+  expires: 2018/02/28
+  link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
