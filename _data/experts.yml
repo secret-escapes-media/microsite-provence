@@ -1,28 +1,33 @@
-- id: expert-01
-  title: Expert's Name
+
+
+
+- id: jean-francois-berard
+  title: Jean-François Berard
   occupation: Professional Chef
-  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
+  profile: >
+    <p>I inherited my skills from my father, René Berard, and the wider family. We love to cook and we love the flavours that the region offers. I achieved my first Michelin star in 2006, offering my guests local flavours at the restaurant I own. I’m also an avid gardener, so when not in the kitchen, you can find me in the grounds of the house tending to my produce!</p>
   story:
-    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
-    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
-    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.
+    <p class="text--xl">Our Provence is a gastronomic heartland, where rich soils offer incredible produce.</p>
+    <p class="text--xl">Fruits, vegetables, and herbs all get picked fresh from the garden of our country house. The olive oil we use is pressed locally at the Mill of Saint Côme, with goat’s cheese from nearby Brousse du Rove. Honey comes from the honey farm of the Oratory and fish is caught each morning locally at the port of Sanary Sur Mer.</p>
+    <p class="text--xl">As you can see, the taste, the colours, and the aromas make our Provence a rich land to discover every season. All this produce is used in our dishes to offer a true taste of Provence. We are dedicated locavores, hoping to share the fantastic local produce with our guests.</p>
 
 
-- id: expert-02
-  title: Expert's Name
-  occupation: Vineyard Owner
-  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
-  story:
-    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
-    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
-    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.
 
 
-- id: expert-03
-  title: Expert's Name
-  occupation: Artist
-  profile: Information about expert. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque enim facere iusto nam quibusdam distinctio corrupti nemo sequi fugiat ullam!
-  story:
-    - content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusantium amet tempora, harum repellendus, perferendis quod neque deserunt earum explicabo voluptatem dolorem praesentium, beatae sunt eaque ipsam adipisci cumque aliquam obcaecati sapiente distinctio provident. Sint accusamus nam suscipit expedita ratione.
-    - content: Nam quod delectus reiciendis, temporibus sequi fugit voluptas. Nulla perspiciatis eos error voluptatem facilis eveniet asperiores vel explicabo, aliquid, blanditiis ducimus accusamus incidunt dolore, reiciendis quod ab vero commodi qui ratione est consequuntur! Dolores vitae dignissimos natus praesentium voluptas, illo?
-    - content: Saepe cupiditate tempore, nostrum vitae quos adipisci, molestias ullam reprehenderit quisquam sed ipsam omnis ut eum temporibus nisi. Iure dolores numquam, non dolorum blanditiis totam consequuntur sequi aliquam recusandae vero magnam nobis aliquid aut, necessitatibus eius qui libero eveniet culpa.
+
+- id: julie-mautner
+  title: Julie Mautner
+  occupation: Travel writer and blogger
+  profile: >
+    <p class="text--xl">I'm an American-born writer, blogger and travel planner based in St. Remy de Provence since 1999. My companies ProvencePostTravel.com and WhatToDoinProvence.com provide a wide range of services and experiences for travelers throughout the South of France. I've published the blog ProvencePost.com since 2008.</p>
+  story: >
+    <p class="text--lg">The first time I came to Provence it was for a two-week vacation and almost immediately, I could see that 14 days wouldn't be nearly enough. I returned a year later and that's when reality hit: my marriage to New York City was over and my love affair with Provence was in full bloom. I fell hard. So I quit my job and sublet my Manhattan apartment and got on a plane. I had no place to live, two friends and no French. It was the smartest stupid thing I've ever done.</p>
+    <p class="text--lg text--bold">Provence does that to people!</p>
+    <p>Almost 20 years on, I'm still making delicious daily discoveries. So how to soak up as much Provencal magic as possible, on a short first-time trip? Here are a couple tips:</p>
+    <ul>
+      <li>Take a cooking class. You'll pick up new tricks, have a fantastic meal and enjoy a pretty home or hotel. The French are crazy about food and love to share what they know. Spending a few hours with a serious Provencal cook can be priceless.</li>
+      <li>Cooking not your thing? Then sign on for something else active or hands-on: a painting class, wine tour, horseback picnic, truffle hunt, pétanque lesson, etc. These are great ways to meet locals passionate about what they do.</li>
+      <li>Attend a village fête such as a shepherds' lunch, a seasonal food festival, a moules frites fundraiser for the fire department...whatever! You'll sit at long tables, drink local wine from plastic cups, bungle your high school French chatting with strangers and have a fantastic time. (To find a fête, look for posters or ask the Tourist Office.)</li>
+      <li>Don't over plan. Leave time for cafe-sitting...and for getting lost...and for come what may. Life moves at a slower pace here and if you go too fast, you'll miss it. You can't do it all in one trip but don't worry; I have a hunch that you'll be back. Provence does that to people... </li>
+    </ul>
+

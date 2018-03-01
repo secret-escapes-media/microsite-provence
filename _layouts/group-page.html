@@ -10,7 +10,7 @@ layout: default
 
 <div class="page__content">
 
-  <div class="section">
+  <div class="section {% if page.expert %}bg--white{% else %}bg--grey-lightest{% endif %}">
     <div class="row row--padding row--xl text--center">
       {{page.intro}}
       <a href="{{site.baseurl}}/offers" class="btn btn--purple">View Provence offers</a>

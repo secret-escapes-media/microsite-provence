@@ -1,17 +1,6 @@
 
 
 
-- title: 5* getaway to beautiful Aix-en-Provence
-  id: 5-getaway-to-beautiful-aix-en-provence
-  location: Renaissance Aix-en-Provence Hotel, France
-  description: A five-star stay in picturesque Aix-en-Provence
-  price: 329
-  price-description: per person for 2 nights
-  saved: 24
-  expires: 2018/03/06
-  link: https://www.secretescapes.com/5-star-getaway-to-beautiful-aix-en-provence-renaissance-aix-en-provence-hotel-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
 - title: Le Moulin de Vernègues Hôtel & Spa
   id: le-moulin-de-vernègues-hôtel-spa
   location: Mallemort, Provence, France
@@ -65,5 +54,16 @@
   saved: 32
   expires: 2018/03/06
   link: https://www.secretescapes.com/kube-hotel-saint-tropez-saint-tropez-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
+
+
+- title: Best Western Hotel Marseille Bourse Vieux Port
+  id: best-western-hotel-marseille-bourse-vieux-port
+  location: Marseille, France
+  description: A characterful hotel in the cultural hotspot of Marseille
+  price: 33
+  price-description: per person per night
+  saved: 32
+  expires: 2018/03/06
+  link: https://www.secretescapes.com/best-western-hotel-marseille-bourse-vieux-port-contemporary-style-in-central-marseille/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
