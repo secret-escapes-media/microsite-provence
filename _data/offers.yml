@@ -1,39 +1,6 @@
 
 
 
-- title: Le Moulin de Vernègues Hôtel & Spa
-  id: le-moulin-de-vernègues-hôtel-spa
-  location: Mallemort, Provence, France
-  description: A Provence golf stay with L'Occitane spa in Lubéron
-  price: 99
-  price-description: per room per night
-  saved: 52
-  expires: 2018/03/06
-  link: https://www.secretescapes.com/le-moulin-de-vernegues-hotel-and-spa-mallemort-provence-france1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
-- title: Benvengudo
-  id: benvengudo
-  location: Provence, France
-  description: A Provençal gem in southeastern France, with outdoor pool and tennis courts
-  price: 76
-  price-description: per person per night
-  saved: 27
-  expires: 2018/03/06
-  link: https://www.secretescapes.com/benvengudo-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
-- title: Hôtel de l'Image
-  id: hotel-de-l-image
-  location: Saint-Rémy-de-Provence, France
-  description: An award-winning rural retreat in picturesque Provence
-  price: 120
-  price-description: per room per night
-  saved: 56
-  expires: 2018/03/06
-  link: https://www.secretescapes.com/hotel-de-limage-saint-remy-de-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
 - title: Auberge de Cassagne & Spa
   id: auberge-de-cassagne-spa
   location: Avignon, France
@@ -41,7 +8,7 @@
   price: 134
   price-description: per room per night
   saved: 46
-  expires: 2018/03/06
+  expires: 2018/03/15
   link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -52,7 +19,7 @@
   price: 101
   price-description: per person per night
   saved: 32
-  expires: 2018/03/06
+  expires: 2018/03/15
   link: https://www.secretescapes.com/kube-hotel-saint-tropez-saint-tropez-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -63,7 +30,40 @@
   price: 33
   price-description: per person per night
   saved: 32
-  expires: 2018/03/06
+  expires: 2018/03/15
   link: https://www.secretescapes.com/best-western-hotel-marseille-bourse-vieux-port-contemporary-style-in-central-marseille/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
+
+
+- title: Bastide de Tourtour Hôtel & Spa
+  id: bastide-de-tourtour-hotel-spa
+  location: Provence, France
+  description: Rural repose at a French country house with lovely spa
+  price: 77
+  price-description: per person per night
+  saved: 51
+  expires: 2018/03/15
+  link: https://www.secretescapes.com/bastide-de-tourtour-hotel-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+
+- title: Le Phébus & Spa
+  id: le-phebus-spa
+  location: Provence, France
+  description: A five-star Provence spa hotel with Michelin-starred restaurant
+  price: 77
+  price-description: per person per night
+  saved: 29
+  expires: 2018/03/15
+  link: https://www.secretescapes.com/le-phebus-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+
+- title: F1 French Grand Prix 2018 with Marseille hotel stay
+  id: f1-french-grand-prix-2018-with-marseille-hotel-stay
+  location: Kyriad Marseille Palais Des Congrès – Vélodrome, France
+  description: Three-day tickets to the F1 French Grand Prix 2018, with a Marseille hotel
+  price: 133
+  price-description: per person per night
+  saved: 20
+  expires: 2018/03/15
+  link: https://www.secretescapes.com/f1-french-grand-prix-2018-with-marseille-hotel-stay-kyriad-marseille-palais-des-congres-velodrome-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
