@@ -8,7 +8,7 @@
   price: 134
   price-description: per room per night
   saved: 46
-  expires: 2018/03/15
+  expires: 2018/03/19
   link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -19,7 +19,7 @@
   price: 101
   price-description: per person per night
   saved: 32
-  expires: 2018/03/15
+  expires: 2018/03/19
   link: https://www.secretescapes.com/kube-hotel-saint-tropez-saint-tropez-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -30,7 +30,7 @@
   price: 33
   price-description: per person per night
   saved: 32
-  expires: 2018/03/15
+  expires: 2018/03/19
   link: https://www.secretescapes.com/best-western-hotel-marseille-bourse-vieux-port-contemporary-style-in-central-marseille/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -41,7 +41,7 @@
   price: 77
   price-description: per person per night
   saved: 51
-  expires: 2018/03/15
+  expires: 2018/03/19
   link: https://www.secretescapes.com/bastide-de-tourtour-hotel-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -52,18 +52,29 @@
   price: 77
   price-description: per person per night
   saved: 29
-  expires: 2018/03/15
+  expires: 2018/03/19
   link: https://www.secretescapes.com/le-phebus-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
-- title: F1 French Grand Prix 2018 with Marseille hotel stay
-  id: f1-french-grand-prix-2018-with-marseille-hotel-stay
-  location: Kyriad Marseille Palais Des Congrès – Vélodrome, France
-  description: Three-day tickets to the F1 French Grand Prix 2018, with a Marseille hotel
-  price: 133
+- title: Hôtel Font Mourier
+  id: hôtel-font-mourier
+  location: Saint-Tropez, France
+  description: Idyllic French Riviera escape with views of Saint-Tropez bay
+  price: 72
   price-description: per person per night
-  saved: 20
-  expires: 2018/03/15
-  link: https://www.secretescapes.com/f1-french-grand-prix-2018-with-marseille-hotel-stay-kyriad-marseille-palais-des-congres-velodrome-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+  saved: 48
+  expires: 2018/03/19
+  link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+
+- title: La Bonne Etape
+  id: la-bonne-etape
+  location: Provence, France
+  description: Stay at a lush Provence oasis with Michelin-starred dining
+  price: 66
+  price-description: per person per night
+  saved: 48
+  expires: 2018/03/19
+  link: https://www.secretescapes.com/la-bonne-etape-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
