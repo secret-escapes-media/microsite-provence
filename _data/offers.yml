@@ -12,28 +12,6 @@
   link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
-- title: Kube Hotel Saint-Tropez
-  id: kube-hotel-saint-tropez
-  location: Saint-Tropez, France
-  description: A five-star Saint-Tropez stay oozing cool contemporary style
-  price: 101
-  price-description: per person per night
-  saved: 32
-  expires: 2018/03/19
-  link: https://www.secretescapes.com/kube-hotel-saint-tropez-saint-tropez-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
-- title: Best Western Hotel Marseille Bourse Vieux Port
-  id: best-western-hotel-marseille-bourse-vieux-port
-  location: Marseille, France
-  description: A characterful hotel in the cultural hotspot of Marseille
-  price: 33
-  price-description: per person per night
-  saved: 32
-  expires: 2018/03/19
-  link: https://www.secretescapes.com/best-western-hotel-marseille-bourse-vieux-port-contemporary-style-in-central-marseille/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
 - title: Bastide de Tourtour Hôtel & Spa
   id: bastide-de-tourtour-hotel-spa
   location: Provence, France
@@ -76,5 +54,27 @@
   saved: 48
   expires: 2018/03/19
   link: https://www.secretescapes.com/la-bonne-etape-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+
+- title: L'Auberge Cavaliere du Pont des Bannes
+  id: l-auberge-cavaliere-du-pont-des-bannes
+  location: The Camargue, France
+  description: Natural beauty in the heart of France’s Camargue region
+  price: 66
+  price-description: per person per night
+  saved: 41
+  expires: 2018/03/19
+  link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+
+- title: Mama Shelter Marseille
+  id: mama-shelter-marseille
+  location: Marseille, France
+  description: A high-design stay in Marseille's hip backstreets
+  price: 41
+  price-description: per person per night
+  saved: 30
+  expires: 2018/03/19
+  link: https://www.secretescapes.com/mama-shelter-marseille-marseille-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
