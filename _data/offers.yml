@@ -8,7 +8,7 @@
   price: 134
   price-description: per room per night
   saved: 46
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
 
 
@@ -19,7 +19,7 @@
   price: 77
   price-description: per person per night
   saved: 51
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/bastide-de-tourtour-hotel-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -30,7 +30,7 @@
   price: 77
   price-description: per person per night
   saved: 29
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/le-phebus-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -41,7 +41,7 @@
   price: 72
   price-description: per person per night
   saved: 48
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -52,7 +52,7 @@
   price: 66
   price-description: per person per night
   saved: 48
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/la-bonne-etape-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -63,7 +63,7 @@
   price: 66
   price-description: per person per night
   saved: 41
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -74,7 +74,17 @@
   price: 41
   price-description: per person per night
   saved: 30
-  expires: 2018/03/19
+  expires: 2018/03/20
   link: https://www.secretescapes.com/mama-shelter-marseille-marseille-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
+
+- title: La Ferme d'Augustin
+  id: la-ferme-d-augustin
+  location: Saint-Tropez, France
+  description: A charming French Riviera hotel near the beach
+  price: 80
+  price-description: per person per night
+  saved: 63
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/la-ferme-daugustin-saint-tropez-france3/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provrnce_March2018
