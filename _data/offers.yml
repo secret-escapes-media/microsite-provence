@@ -1,39 +1,6 @@
 
 
 
-- title: Auberge de Cassagne & Spa
-  id: auberge-de-cassagne-spa
-  location: Avignon, France
-  description: Five-star luxe at an authentic Provençal house stay near Avignon
-  price: 134
-  price-description: per room per night
-  saved: 46
-  expires: 2018/03/20
-  link: https://www.secretescapes.com/auberge-de-cassagne-and-spa-avignon-france4/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_Feb2018
-
-
-- title: Bastide de Tourtour Hôtel & Spa
-  id: bastide-de-tourtour-hotel-spa
-  location: Provence, France
-  description: Rural repose at a French country house with lovely spa
-  price: 77
-  price-description: per person per night
-  saved: 51
-  expires: 2018/03/20
-  link: https://www.secretescapes.com/bastide-de-tourtour-hotel-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
-
-
-- title: Le Phébus & Spa
-  id: le-phebus-spa
-  location: Provence, France
-  description: A five-star Provence spa hotel with Michelin-starred restaurant
-  price: 77
-  price-description: per person per night
-  saved: 29
-  expires: 2018/03/20
-  link: https://www.secretescapes.com/le-phebus-and-spa-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
-
-
 - title: Hôtel Font Mourier
   id: hôtel-font-mourier
   location: Saint-Tropez, France
@@ -41,7 +8,7 @@
   price: 72
   price-description: per person per night
   saved: 48
-  expires: 2018/03/20
+  expires: 2018/03/27
   link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -52,7 +19,7 @@
   price: 66
   price-description: per person per night
   saved: 48
-  expires: 2018/03/20
+  expires: 2018/03/27
   link: https://www.secretescapes.com/la-bonne-etape-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -63,7 +30,7 @@
   price: 66
   price-description: per person per night
   saved: 41
-  expires: 2018/03/20
+  expires: 2018/03/27
   link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
@@ -74,7 +41,7 @@
   price: 41
   price-description: per person per night
   saved: 30
-  expires: 2018/03/20
+  expires: 2018/03/27
   link: https://www.secretescapes.com/mama-shelter-marseille-marseille-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 
