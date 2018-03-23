@@ -1,6 +1,3 @@
-
-
-
 - title: Hôtel Font Mourier
   id: hôtel-font-mourier
   location: Saint-Tropez, France
@@ -10,7 +7,6 @@
   saved: 48
   expires: 2018/03/27
   link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
-
 
 - title: La Bonne Etape
   id: la-bonne-etape
@@ -22,7 +18,6 @@
   expires: 2018/03/27
   link: https://www.secretescapes.com/la-bonne-etape-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
-
 - title: L'Auberge Cavaliere du Pont des Bannes
   id: l-auberge-cavaliere-du-pont-des-bannes
   location: The Camargue, France
@@ -32,7 +27,6 @@
   saved: 41
   expires: 2018/03/27
   link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
-
 
 - title: Mama Shelter Marseille
   id: mama-shelter-marseille
@@ -44,8 +38,6 @@
   expires: 2018/03/27
   link: https://www.secretescapes.com/mama-shelter-marseille-marseille-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
-
-
 - title: La Ferme d'Augustin
   id: la-ferme-d-augustin
   location: Saint-Tropez, France
@@ -55,3 +47,23 @@
   saved: 63
   expires: 2018/03/27
   link: https://www.secretescapes.com/la-ferme-daugustin-saint-tropez-france3/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provrnce_March2018
+
+- title: Elegant Avignon break with Eurostar travel
+  id: elegant-avignon-break-with-eurostar-travel
+  location: Hôtel la Magnaneraie, France
+  description: A historic Provence bolthole rich in authentic rural charm
+  price: 325
+  price-description: per person for 3 nights
+  saved: 30
+  expires: 2018/04/04
+  link: https://www.secretescapes.com/elegant-avignon-break-with-eurostar-travel-hotel-la-magnaneraie-france1/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
+
+- title: Garrigae Abbaye de Sainte Croix
+  id: garrigae-abbaye-de-sainte-croix
+  location: Provence, France
+  description: A charming Provençal abode in a 12th-century Romanesque abbey
+  price: 52
+  price-description: per person per night
+  saved: 29
+  expires: 2018/04/04
+  link: https://www.secretescapes.com/garrigae-abbaye-de-sainte-croix-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
