@@ -1,13 +1,3 @@
-- title: Hôtel Font Mourier
-  id: hôtel-font-mourier
-  location: Saint-Tropez, France
-  description: Idyllic French Riviera escape with views of Saint-Tropez bay
-  price: 72
-  price-description: per person per night
-  saved: 48
-  expires: 2018/03/27
-  link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
-
 - title: La Bonne Etape
   id: la-bonne-etape
   location: Provence, France
