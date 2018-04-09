@@ -1,5 +1,3 @@
-
-
 - title: L'Auberge Cavaliere du Pont des Bannes
   id: l-auberge-cavaliere-du-pont-des-bannes
   location: The Camargue, France
@@ -7,7 +5,7 @@
   price: 66
   price-description: per person per night
   saved: 41
-  expires: 2018/04/06
+  expires: 2018/04/10
   link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 - title: La Ferme d'Augustin
@@ -17,7 +15,7 @@
   price: 80
   price-description: per person per night
   saved: 63
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/la-ferme-daugustin-saint-tropez-france3/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provrnce_March2018
 
 - title: Garrigae Abbaye de Sainte Croix
@@ -27,7 +25,7 @@
   price: 52
   price-description: per person per night
   saved: 29
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/garrigae-abbaye-de-sainte-croix-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 - title: Le Petit Palais d'Aglaé
@@ -37,5 +35,25 @@
   price: 58
   price-description: per person per night
   saved: 68
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/le-petit-palais-daglae-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
+
+- title: Château de Massillan
+  id: chateau-de-massillan
+  location: Provence, France
+  description: An enchanting chateau-turned-hotel in Provence
+  price: 66
+  price-description: per person per night
+  saved: 48
+  expires: 2018/04/17
+  link: https://www.secretescapes.com/chateau-de-massillan-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
+
+- title: Auberge de Carcarille
+  id: auberge-de-carcarille
+  location: Gordes, France
+  description: A family-run Provence find at the foot of Gordes
+  price: 44
+  price-description: per person per night
+  saved: 45
+  expires: 2018/04/17
+  link: https://www.secretescapes.com/auberge-de-carcarille-gourdes-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
