@@ -2,8 +2,8 @@
   id: l-auberge-cavaliere-du-pont-des-bannes
   location: The Camargue, France
   description: Natural beauty in the heart of France’s Camargue region
-  price: 66
-  price-description: per person per night
+  price: 137
+  price-description: per room per night
   saved: 41
   expires: 2018/04/10
   link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
@@ -12,7 +12,7 @@
   id: la-ferme-d-augustin
   location: Saint-Tropez, France
   description: A charming French Riviera hotel near the beach
-  price: 80
+  price: 66
   price-description: per person per night
   saved: 63
   expires: 2018/04/10
@@ -22,8 +22,8 @@
   id: garrigae-abbaye-de-sainte-croix
   location: Provence, France
   description: A charming Provençal abode in a 12th-century Romanesque abbey
-  price: 52
-  price-description: per person per night
+  price: 105
+  price-description: per room per night
   saved: 29
   expires: 2018/04/10
   link: https://www.secretescapes.com/garrigae-abbaye-de-sainte-croix-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
