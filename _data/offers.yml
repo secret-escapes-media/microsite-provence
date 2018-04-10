@@ -1,12 +1,3 @@
-- title: L'Auberge Cavaliere du Pont des Bannes
-  id: l-auberge-cavaliere-du-pont-des-bannes
-  location: The Camargue, France
-  description: Natural beauty in the heart of France’s Camargue region
-  price: 137
-  price-description: per room per night
-  saved: 41
-  expires: 2018/04/10
-  link: https://www.secretescapes.com/lauberge-cavaliere-du-pont-des-bannes-the-camargue-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 - title: La Ferme d'Augustin
   id: la-ferme-d-augustin
@@ -15,18 +6,8 @@
   price: 66
   price-description: per person per night
   saved: 63
-  expires: 2018/04/10
+  expires: 2018/04/11
   link: https://www.secretescapes.com/la-ferme-daugustin-saint-tropez-france3/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provrnce_March2018
-
-- title: Garrigae Abbaye de Sainte Croix
-  id: garrigae-abbaye-de-sainte-croix
-  location: Provence, France
-  description: A charming Provençal abode in a 12th-century Romanesque abbey
-  price: 105
-  price-description: per room per night
-  saved: 29
-  expires: 2018/04/10
-  link: https://www.secretescapes.com/garrigae-abbaye-de-sainte-croix-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_March2018
 
 - title: Le Petit Palais d'Aglaé
   id: le-petit-palais-d-aglaé
@@ -35,7 +16,7 @@
   price: 58
   price-description: per person per night
   saved: 68
-  expires: 2018/04/10
+  expires: 2018/04/17
   link: https://www.secretescapes.com/le-petit-palais-daglae-provence-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
 
 - title: Château de Massillan
@@ -57,3 +38,13 @@
   saved: 45
   expires: 2018/04/17
   link: https://www.secretescapes.com/auberge-de-carcarille-gourdes-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
+
+- title: Grand Hôtel des Sablettes-Plage, Curio Collection by Hilton
+  id: grand-hotel-des-sablettes-plage-curio-collection-by-hilton
+  location: La Seyne-sur-Mer, near Toulon, France
+  description: A new seafront stay with spa and private beach near Toulon
+  price: 58
+  price-description: per person per night
+  saved: 59
+  expires: 2018/04/17
+  link: https://www.secretescapes.com/grand-hotel-des-sablettes-plage-curio-collection-by-hilton-la-seyne-sur-mer-near-toulon-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
