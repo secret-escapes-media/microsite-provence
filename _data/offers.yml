@@ -1,14 +1,3 @@
-
-- title: La Ferme d'Augustin
-  id: la-ferme-d-augustin
-  location: Saint-Tropez, France
-  description: A charming French Riviera hotel near the beach
-  price: 66
-  price-description: per person per night
-  saved: 63
-  expires: 2018/04/11
-  link: https://www.secretescapes.com/la-ferme-daugustin-saint-tropez-france3/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provrnce_March2018
-
 - title: Le Petit Palais d'Aglaé
   id: le-petit-palais-d-aglaé
   location: Provence, France
@@ -43,8 +32,8 @@
   id: grand-hotel-des-sablettes-plage-curio-collection-by-hilton
   location: La Seyne-sur-Mer, near Toulon, France
   description: A new seafront stay with spa and private beach near Toulon
-  price: 58
-  price-description: per person per night
+  price: 116
+  price-description: per room per night
   saved: 59
   expires: 2018/04/17
   link: https://www.secretescapes.com/grand-hotel-des-sablettes-plage-curio-collection-by-hilton-la-seyne-sur-mer-near-toulon-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Provence_April2018
